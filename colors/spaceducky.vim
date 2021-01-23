@@ -12,7 +12,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="spaceduck"
+let g:colors_name="spaceducky"
 
 
 let Italic = ""
