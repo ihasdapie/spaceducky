@@ -1,8 +1,8 @@
 " ===============================================================
-" spaceduck
+" spaceducky
 " 
-" URL: https://github.com/pineapplegiant/spaceduck
-" Author: Guillermo Rodriguez
+" URL: https://github.com/ihasdapie/Spaceduck
+" Author: Guillermo Rodriguez, Brian Chen
 " License: MIT
 " Last Change: 2021/01/15 16:53
 " ===============================================================
@@ -99,6 +99,7 @@ hi String guifg=#00a3cc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#00a3cc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#00a3cc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#5ccc96 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi spaceducky_function guifg=#ce6f8f ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#5ccc96 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#5ccc96 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#e39400 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -155,7 +156,40 @@ hi link phpInclude Conditional
 hi link phpKeyword StorageClass
 hi link phpMemberSelector Title
 hi link phpVarSelector Title
+
+" python {{{
+
 hi pythonOperator guifg=#ce6f8f ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi! link pythonFunction spaceducky_function
+hi! link pythonBuiltin Function
+hi! link pythonBuiltinObj Function
+hi! link pythonBuiltinFunc Function
+
+
+
+
+
+" hi! link pythonFunction GruvboxAqua
+" hi! link pythonDecorator GruvboxRed
+" hi! link pythonInclude GruvboxBlue
+" hi! link pythonImport GruvboxBlue
+" hi! link pythonRun GruvboxBlue
+" hi! link pythonCoding GruvboxBlue
+" hi! link pythonOperator GruvboxRed
+" hi! link pythonException GruvboxRed
+" hi! link pythonExceptions GruvboxPurple
+" hi! link pythonBoolean GruvboxPurple
+" hi! link pythonDot GruvboxFg3
+" hi! link pythonConditional GruvboxRed
+" hi! link pythonRepeat GruvboxRed
+" hi! link pythonDottedName GruvboxGreenBold
+
+" }}}
+
+
+
+
+
 hi link rubyConstant Constant
 hi link rubyDefine Define
 hi link rubyMethodName Function
