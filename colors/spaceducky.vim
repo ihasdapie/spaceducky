@@ -99,7 +99,6 @@ hi String guifg=#00a3cc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#00a3cc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#00a3cc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#5ccc96 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi spaceducky_function guifg=#ce6f8f ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#5ccc96 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#5ccc96 ctermfg=78 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#e39400 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -158,12 +157,12 @@ hi link phpMemberSelector Title
 hi link phpVarSelector Title
 
 " python {{{
-
-hi pythonOperator guifg=#ce6f8f ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi! link pythonFunction spaceducky_function
-hi! link pythonBuiltin Function
-hi! link pythonBuiltinObj Function
-hi! link pythonBuiltinFunc Function
+hi link pythonOperator Operator
+hi link pythonStatement Special
+hi link pythonFunction Function
+" hi! link pythonBuiltin Function
+" hi! link pythonBuiltinObj Function
+" hi! link pythonBuiltinFunc Function
 
 
 
