@@ -1,4 +1,9 @@
-# Spaceduck 🚀🦆
+# Spaceducky 🚀🦆
+
+
+Spaceducky is a work-in-progress fork of spaceduck with improved contrast and syntax highlighting for languages I work in.
+
+
 
 [![Stars](https://img.shields.io/github/stars/pineapplegiant/spaceduck?style=social)](https://img.shields.io/github/stars/pineapplegiant/spaceduck?style=social)
 [![Fork](https://img.shields.io/github/forks/pineapplegiant/spaceduck?style=social)](https://img.shields.io/github/forks/pineapplegiant/spaceduck?style=social)
