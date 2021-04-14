@@ -116,6 +116,12 @@ hi Macro guifg=#7a5ccc ctermfg=98 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#7a5ccc ctermfg=98 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialComment Comment
 hi Todo guifg=#ffffff ctermfg=15 guibg=#686f9a ctermbg=60 gui=underline cterm=underline
+
+
+hi GitSignsCurrentLineBlame guifg = #686f9a
+
+
+
 hi link cFormat Title
 hi link cCppOutIf1 Normal
 hi link cCppOutIf2 Normal
