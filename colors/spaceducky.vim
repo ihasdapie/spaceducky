@@ -118,7 +118,6 @@ hi link SpecialComment Comment
 hi Todo guifg=#ffffff ctermfg=15 guibg=#686f9a ctermbg=60 gui=underline cterm=underline
 
 
-hi GitSignsCurrentLineBlame guifg = #686f9a
 
 
 
@@ -290,8 +289,20 @@ let g:terminal_color_15 = "#ecf0c1"
 """" 
 " => barbar
 """"
-
 hi BufferInactiveSign guifg=#7a5ccc
+
+"""
+hi GitSignsCurrentLineBlame guifg=#686f9a
+hi GitGutterAdd guifg=#5ccc96 guibg=#0f111b
+hi GitGutterChange guifg=#f2ce00 guibg=#0f111b
+hi GitGutterDelete guifg=#e33400 guibg=#0f111b
+hi GitGutterChangeDelete guifg=#e39400 guibg=#0f111b
+
+
+
+
+"""
+
 
 
 
